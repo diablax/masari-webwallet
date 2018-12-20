@@ -27,9 +27,9 @@ All the content of the src directory needs to be exposed with a web-server.
 You will also need to expose the content of the src_api content to an endpoint which can interpret PHP.
 By default the configuration looks at wallet.mask.team/api/
 
-Deploy content of /src directory in /var/www/html
-Deploy content of /src_api directory in /var/www/html/api
-Deploy content of /src_client_api directory in /var/www/html/api
+* Deploy content of /src directory in /var/www/html
+* Deploy content of /src_api directory in /var/www/html/api
+* Deploy content of /src_client_api directory in /var/www/html/api
 
 
 # Permissions
