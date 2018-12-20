@@ -1,4 +1,4 @@
-# Official Masari Web Wallet - Fully client-side 
+# Official Mask Web Wallet - Fully client-side 
 This web wallet is doing everything client-side to give the best privacy to users.
 The server is currently only used to optimize the communication with the daemon and compress the blockchain.  
 
@@ -23,10 +23,10 @@ Translations:
 - Greek: GeraltOfTrivia
 
 # Contributing
-- You can help Masari by translation the wallet in your native language, it's really easy!  
+- You can help Mask by translation the wallet in your native language, it's really easy!  
 Read [the translations guide](TRANSLATIONS.md) to get instructions on how to do that
 - Report bugs & ideas to help us improve the web wallet by opening an issue 
-- [Make a donation to Masari](https://www.masariwallet.com/#!donate)
+- [Make a donation to Mask](https://www.wallet.mask.team/#!donate)
 
 # Forks / Other Coins
 We have been receiving multiple coin developers help to fork it. As the time required to develop this project is heavy, please consider giving a mention to this project if you fork it.
@@ -50,4 +50,4 @@ The code is readable, it should be enough for you to use it.
 - Basic network stats
 
 # Roadmap
-See Github [issues.](https://github.com/masari-project/masari-webwallet/issues)
+See Github [issues.](https://github.com/mask-project/mask-webwallet/issues)

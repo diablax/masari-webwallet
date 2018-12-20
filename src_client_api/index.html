@@ -29,12 +29,12 @@
 <script>
 	var clickButton = document.getElementById('payButton');
 
-	function MasariLoaded(){
+	function MaskLoaded(){
 		clickButton.disabled = false;
 		clickButton.addEventListener("click", function(){
-			MasariApi.makeTransfer({
+			MaskApi.makeTransfer({
 				amount:10,
-				address:'wallet.masaricoin.com',
+				address:'wallet.mask.team',
 				description:'Description',
 				destName:'Webwallet',
 				redirect:encodeURIComponent(window.location.href)
@@ -44,12 +44,12 @@
 		});
 
 		console.log('LOADED CALLBACK');
-		MasariApi.hasWallet().then(function(hasWAllet){
+		MaskApi.hasWallet().then(function(hasWAllet){
 			console.log('HAS WALLET');
 			console.log(hasWAllet);
 		});
 	}
-	MasariApi.init().then(MasariLoaded);
+	MaskApi.init().then(MaskLoaded);
 
 </script>
 

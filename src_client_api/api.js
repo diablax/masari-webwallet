@@ -13,10 +13,10 @@
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-var MasariApi = new function(){
+var MaskApi = new function(){
 
 	this.ready = false;
-	this.apiDomain = 'http://localhost:38090';
+	this.apiDomain = 'https://wallet.mask.team:38090';
 	this.timeoutErrorTime = 10000;
 	this.timeoutError = 10000;
 
@@ -90,7 +90,7 @@ var MasariApi = new function(){
 		if(typeof options.description !== 'undefined')url += 'txDesc='+options.description+'&';
 		if(typeof options.destName !== 'undefined')url += 'destName='+options.destName+'&';
 
-		window.open(url,"Masari",this.popupParameters);
+		window.open(url,"Mask",this.popupParameters);
 
 		return Promise.resolve();
 	};

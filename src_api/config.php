@@ -2,6 +2,6 @@
 
 $testnet = false;
 $cacheLocation = __DIR__.'/'.($testnet ? 'cache-testnet' : 'cache');
-$daemonAddress = 'localhost';
-$rpcPort = $testnet ? 48081 : 38081;
-$coinSymbol = 'msr';
+$daemonAddress = 'sync.mask.team';
+$rpcPort = $testnet ? 44071 : 44081;
+$coinSymbol = 'mask';

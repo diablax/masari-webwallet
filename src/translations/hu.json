@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Hivatalos Masari webtárca",
-	"description":"A Masari hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
+	"title":"Hivatalos Mask webtárca",
+	"description":"A Mask hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
   },
   "messages": {
 	"menu": {
@@ -62,8 +62,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Biztonságos Masari tárca",
-	  "tagLine": "A Masari használatának legegyszerűbb módja - bárhol és bármikor",
+	  "mainTitle": "Biztonságos Mask tárca",
+	  "tagLine": "A Mask használatának legegyszerűbb módja - bárhol és bármikor",
 	  "actions": {
 		"loadWallet": "Tárca betöltése",
 		"importWallet": "Tárcaimportálás",
@@ -81,7 +81,7 @@
 		},
 		"technology": {
 		  "title": "Egyedi technológia",
-		  "description": "Közvetlen kapcsolat a Masari blokklánccal!"
+		  "description": "Közvetlen kapcsolat a Mask blokklánccal!"
 		},
 		"openSource": {
 		  "title": "Teljesen nyílt forrású",
@@ -105,7 +105,7 @@
 		"emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
 		"waitSync": "Kérlek, várj, míg a tárca naprakész lesz",
 		"beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
-		"getMSRAddress": "MSR fogadása"
+		"getMASKAddress": "MASK fogadása"
 	  },
 	  "txDetails":{
 		"title":"Tranzakciórészletek",
@@ -142,7 +142,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"Ez egyszerű volt. A számlád rendelkezésre áll!",
-		"subtitle":"Állj készen a Masari használatára",
+		"subtitle":"Állj készen a Mask használatára",
 		"passwordSelectionBlock":{
 		  "label":"Védd a tárcád"
 		},
@@ -165,8 +165,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"A MasariWallet használatának kockázatai",
-		"content":"A MasariWallet egy webes felület, mely lehetővé teszi a Masari használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a MasariWalletet, mintha az a valódi pénztárcád lenne."
+		"title":"A MaskWallet használatának kockázatai",
+		"content":"A MaskWallet egy webes felület, mely lehetővé teszi a Mask használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a MaskWalletet, mintha az a valódi pénztárcád lenne."
 	  }
 	},
 	"donatePage":{
@@ -176,9 +176,9 @@
 		"title":"Webtárca",
 		"content":"A webtárcát Gnock fejleszti szabadidejében.<br/>Ha szeretnéd segíteni a fejlesztést, a szerverek fizetését és tetszik az applikáció, úgy vedd fontolóra az adományozást:<br/><br/>"
 	  },
-	  "masariFundBlock":{
-		"title":"Masari fejlesztési alap",
-		"content":"Ha szeretnél segíteni a Masarinak, az alábbi címekre adományozhatsz"
+	  "maskFundBlock":{
+		"title":"Mask fejlesztési alap",
+		"content":"Ha szeretnél segíteni a Masknak, az alábbi címekre adományozhatsz"
 	  }
 	},
 	"supportPage":{
@@ -187,12 +187,12 @@
 	  "getInTouchBlock":{
 		"title":"Lépjünk kapcsolatba!",
 		"content":"Visszajelzésed vagy ötleted van a tárcával kapcsolatban? Keress fel bennünket!",
-		"discord":"Masari Discord-csatorna"
+		"discord":"Mask Discord-csatorna"
 	  }
 	},
 	"networkPage":{
 	  "title":"Hálózati statisztika",
-	  "subtitle":"Betekintés a Masari hálózatába",
+	  "subtitle":"Betekintés a Mask hálózatába",
 	  "statsBlock":{
 		"hashrate":"Hálózati hashrate",
 		"height":"Blokklánc hossza",
@@ -202,7 +202,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"MSR küldése",
+	  "title":"MASK küldése",
 	  "sendBlock":{
 		"address":{
 		  "label":"Kedvezményezett címe",
@@ -232,7 +232,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Köszönjük az adományt!",
-		"content":"Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a Masarit.",
+		"content":"Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a Maskt.",
 		"confirmText":"OK"
 	  },
 	  "transferSentModal":{
@@ -269,7 +269,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"MSR fogadása",
+	  "title":"MASK fogadása",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Pénz fogadására szolgáló cím:",
@@ -297,7 +297,7 @@
 	},
 	"miningPage":{
 	  "title":"Bányássz közvetlenül böngészőből",
-	  "subtitle":"Támogasd a hálózatot a bányászással és szerezz érte jutalmat Masariban",
+	  "subtitle":"Támogasd a hálózatot a bányászással és szerezz érte jutalmat Maskban",
 	  "parameterBlock":{
 		"title":"Paraméterek",
 		"labelDestinationAddress":"Céltárca",
@@ -311,7 +311,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Maximális hashrate",
 		"dedicatedHardware":"Bányászásra dedikált szoftver és hardver használatával nagyobb bevételre tehetsz szert és segíthetsz a hálózat decentralizálásában.",
-		"miningHandledBy":"Ezt a bányászást a get.masaricoin.com pool kezeli"
+		"miningHandledBy":"Ezt a bányászást a get.maskcoin.com pool kezeli"
 	  }
 	},
 	"settingsPage":{
